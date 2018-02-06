@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63FF6BAB20295E1600F11E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF6BAA20295E1600F11E71 /* AppDelegate.swift */; };
+		63FF6BAD20295E1600F11E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF6BAC20295E1600F11E71 /* ViewController.swift */; };
+		63FF6BB020295E1600F11E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FF6BAE20295E1600F11E71 /* Main.storyboard */; };
+		63FF6BB220295E1600F11E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FF6BB120295E1600F11E71 /* Assets.xcassets */; };
+		63FF6BB520295E1600F11E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FF6BB320295E1600F11E71 /* LaunchScreen.storyboard */; };
+		63FF6BC020295E1600F11E71 /* WinterHolidayQandATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF6BBF20295E1600F11E71 /* WinterHolidayQandATests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63FF6BBC20295E1600F11E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63FF6B9F20295E1600F11E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FF6BA620295E1600F11E71;
+			remoteInfo = WinterHolidayQandA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63FF6BA720295E1600F11E71 /* WinterHolidayQandA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterHolidayQandA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF6BAA20295E1600F11E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63FF6BAC20295E1600F11E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63FF6BAF20295E1600F11E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63FF6BB120295E1600F11E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63FF6BB420295E1600F11E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63FF6BB620295E1600F11E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FF6BBB20295E1600F11E71 /* WinterHolidayQandATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterHolidayQandATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF6BBF20295E1600F11E71 /* WinterHolidayQandATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterHolidayQandATests.swift; sourceTree = "<group>"; };
+		63FF6BC120295E1700F11E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63FF6BA420295E1600F11E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF6BB820295E1600F11E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63FF6B9E20295E1600F11E71 = {
+			isa = PBXGroup;
+			children = (
+				63FF6BA920295E1600F11E71 /* WinterHolidayQandA */,
+				63FF6BBE20295E1600F11E71 /* WinterHolidayQandATests */,
+				63FF6BA820295E1600F11E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63FF6BA820295E1600F11E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FF6BA720295E1600F11E71 /* WinterHolidayQandA.app */,
+				63FF6BBB20295E1600F11E71 /* WinterHolidayQandATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63FF6BA920295E1600F11E71 /* WinterHolidayQandA */ = {
+			isa = PBXGroup;
+			children = (
+				63FF6BAA20295E1600F11E71 /* AppDelegate.swift */,
+				63FF6BAC20295E1600F11E71 /* ViewController.swift */,
+				63FF6BAE20295E1600F11E71 /* Main.storyboard */,
+				63FF6BB120295E1600F11E71 /* Assets.xcassets */,
+				63FF6BB320295E1600F11E71 /* LaunchScreen.storyboard */,
+				63FF6BB620295E1600F11E71 /* Info.plist */,
+			);
+			path = WinterHolidayQandA;
+			sourceTree = "<group>";
+		};
+		63FF6BBE20295E1600F11E71 /* WinterHolidayQandATests */ = {
+			isa = PBXGroup;
+			children = (
+				63FF6BBF20295E1600F11E71 /* WinterHolidayQandATests.swift */,
+				63FF6BC120295E1700F11E71 /* Info.plist */,
+			);
+			path = WinterHolidayQandATests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63FF6BA620295E1600F11E71 /* WinterHolidayQandA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FF6BC420295E1700F11E71 /* Build configuration list for PBXNativeTarget "WinterHolidayQandA" */;
+			buildPhases = (
+				63FF6BA320295E1600F11E71 /* Sources */,
+				63FF6BA420295E1600F11E71 /* Frameworks */,
+				63FF6BA520295E1600F11E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinterHolidayQandA;
+			productName = WinterHolidayQandA;
+			productReference = 63FF6BA720295E1600F11E71 /* WinterHolidayQandA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63FF6BBA20295E1600F11E71 /* WinterHolidayQandATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FF6BC720295E1700F11E71 /* Build configuration list for PBXNativeTarget "WinterHolidayQandATests" */;
+			buildPhases = (
+				63FF6BB720295E1600F11E71 /* Sources */,
+				63FF6BB820295E1600F11E71 /* Frameworks */,
+				63FF6BB920295E1600F11E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FF6BBD20295E1600F11E71 /* PBXTargetDependency */,
+			);
+			name = WinterHolidayQandATests;
+			productName = WinterHolidayQandATests;
+			productReference = 63FF6BBB20295E1600F11E71 /* WinterHolidayQandATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63FF6B9F20295E1600F11E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MACUser;
+				TargetAttributes = {
+					63FF6BA620295E1600F11E71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					63FF6BBA20295E1600F11E71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63FF6BA620295E1600F11E71;
+					};
+				};
+			};
+			buildConfigurationList = 63FF6BA220295E1600F11E71 /* Build configuration list for PBXProject "WinterHolidayQandA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63FF6B9E20295E1600F11E71;
+			productRefGroup = 63FF6BA820295E1600F11E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63FF6BA620295E1600F11E71 /* WinterHolidayQandA */,
+				63FF6BBA20295E1600F11E71 /* WinterHolidayQandATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63FF6BA520295E1600F11E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF6BB520295E1600F11E71 /* LaunchScreen.storyboard in Resources */,
+				63FF6BB220295E1600F11E71 /* Assets.xcassets in Resources */,
+				63FF6BB020295E1600F11E71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF6BB920295E1600F11E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63FF6BA320295E1600F11E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF6BAD20295E1600F11E71 /* ViewController.swift in Sources */,
+				63FF6BAB20295E1600F11E71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF6BB720295E1600F11E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF6BC020295E1600F11E71 /* WinterHolidayQandATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63FF6BBD20295E1600F11E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63FF6BA620295E1600F11E71 /* WinterHolidayQandA */;
+			targetProxy = 63FF6BBC20295E1600F11E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63FF6BAE20295E1600F11E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FF6BAF20295E1600F11E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63FF6BB320295E1600F11E71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FF6BB420295E1600F11E71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63FF6BC220295E1700F11E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63FF6BC320295E1700F11E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FF6BC520295E1700F11E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPFDQHMRA8;
+				INFOPLIST_FILE = WinterHolidayQandA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basics.WinterHolidayQandA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FF6BC620295E1700F11E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPFDQHMRA8;
+				INFOPLIST_FILE = WinterHolidayQandA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basics.WinterHolidayQandA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63FF6BC820295E1700F11E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPFDQHMRA8;
+				INFOPLIST_FILE = WinterHolidayQandATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basics.WinterHolidayQandATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterHolidayQandA.app/WinterHolidayQandA";
+			};
+			name = Debug;
+		};
+		63FF6BC920295E1700F11E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPFDQHMRA8;
+				INFOPLIST_FILE = WinterHolidayQandATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basics.WinterHolidayQandATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterHolidayQandA.app/WinterHolidayQandA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63FF6BA220295E1600F11E71 /* Build configuration list for PBXProject "WinterHolidayQandA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF6BC220295E1700F11E71 /* Debug */,
+				63FF6BC320295E1700F11E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FF6BC420295E1700F11E71 /* Build configuration list for PBXNativeTarget "WinterHolidayQandA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF6BC520295E1700F11E71 /* Debug */,
+				63FF6BC620295E1700F11E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FF6BC720295E1700F11E71 /* Build configuration list for PBXNativeTarget "WinterHolidayQandATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF6BC820295E1700F11E71 /* Debug */,
+				63FF6BC920295E1700F11E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63FF6B9F20295E1600F11E71 /* Project object */;
+}
